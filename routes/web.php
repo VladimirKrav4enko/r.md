@@ -13,6 +13,19 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get(
+    '/',
+    function () {
+        return redirect()->route('vacancy-list');
+    }
+);
+
+Route::get(
+    '/vacancy/show/{id}',
+    'VacancyController@show'
+)->name('vacancy-show');
+
+Route::get(
+    '/vacancy/list',
+    'VacancyController@list'
+)->name('vacancy-list');

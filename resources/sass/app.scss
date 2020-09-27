@@ -1,1 +1,45 @@
 //
+
+.select-container {
+    margin-right: 10px;
+}
+
+.select-container > select {
+    padding: 10px 15px;
+}
+
+.content_wr {
+    margin-top: 20px;
+}
+
+.full-desc {
+    white-space: pre-wrap;
+}
+
+.categories_page .pagination {
+    list-style: none;
+    padding: 0;
+
+}
+
+.categories_page .pagination > li {
+    display: inline-block;
+    height: 43px;
+    line-height: 43px;
+    margin-left: 22px;
+}
+
+.select-container input.date {
+    max-width: 138px;
+    display: inline-block;
+    font-size: 0.8em;
+    height: 41px;
+    margin-right: 8px;
+}
+
+.select-container input.date:last-child {
+    margin-right: 0;
+}
+.sel2{
+    max-width: 200px;
+}
