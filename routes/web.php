@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get(
     '/',
     function () {
-        return redirect()->route('vacancy-list');
+        return redirect()->route('vacancy-index');
     }
 );
 
@@ -27,5 +27,5 @@ Route::get(
 
 Route::get(
     '/vacancy/list',
-    'VacancyController@list'
-)->name('vacancy-list');
+    'VacancyController@index'
+)->name('vacancy-index');

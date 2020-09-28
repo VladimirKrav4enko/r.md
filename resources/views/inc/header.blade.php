@@ -10,7 +10,7 @@
 
             <div class="floating_search_cont">
                 <div class="rsf search_form v1">
-                    <form id="floating_search_container" class="floating-search-form" action="{{route('vacancy-list')}}"
+                    <form id="floating_search_container" class="floating-search-form" action="{{route('vacancy-index')}}"
                           method="GET">
                         <div
                             class="s_in_wr index-search uk-inline uk-width-1-1 uk-position-relative search-input-container uk-flex">
